@@ -1,0 +1,21 @@
+How to setup flask project
+
+1. pastikakn python dan virtual environtmen sudah terinstall
+2. ketikkan command berikut untuk initialize virtual env: virtualenv [nama env]
+=> virtualenv env
+
+3. sebelum menginstall package, pastikan venv sudah aktif
+4. untuk mengaktifkan virtualenv (windows-powershell): [nama env]\Scripts\activate
+=> env\Scripts\activate
+
+5. untuk menonaktifkan venv
+=> deactivate
+
+6. untuk menginstall package, contoh flask
+=> pip install Flask
+
+7. cara untuk menjalankan mode dev yaitu: python [nama file main]
+=> python src/app.py
+
+8. cara untuk generate file requirement.txt:
+=> pip freeze > requirements.txt
