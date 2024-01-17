@@ -8,7 +8,7 @@ class Recommender:
 
     def __init__(self):
         self.data = pd.read_csv(
-            'src/dataset/new_recommendation_processedfinal.csv')
+            'dataset/new_recommendation_processedfinal.csv')
 
     def get_features(self):
         # getting dummies of dataset

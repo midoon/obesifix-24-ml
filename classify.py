@@ -16,11 +16,11 @@ from PIL import Image
 from io import BytesIO
 import pandas as pd
 
-nutrition_file = "src/dataset/nutritionperserving0_18.csv"
+nutrition_file = "dataset/nutritionperserving0_18.csv"
 data = pd.read_csv(nutrition_file)
 names = data.ingr
 
-model = tf.keras.models.load_model("src/model/model_prep_rms_new.h5")
+model = tf.keras.models.load_model("model/model_prep_rms_new.h5")
 
 
 def classify_image(url):
